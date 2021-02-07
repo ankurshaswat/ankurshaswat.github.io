@@ -8,6 +8,31 @@
 #     I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
 - layout: top-middle
+  name: Bitcoin Implementation
+  dates: April 2020 - May 2020
+  # quote: >
+  #   Prof. Smruti R. Sarangi
+  description: |
+    - Implemented prototype Bitcoin with mining, transaction and smart contract support.   
+
+- layout: top-middle
+  name: GHS Algorithm
+  dates: March 2020 - April 2020
+  # quote: >
+  #   Prof. Smruti R. Sarangi
+  description: |
+    - Implemented GHS Algorithm used to compute minimum spanning tree in a distributed environment  
+
+- layout: top-middle
+  name: Chord & Pastry Distributed Hash Tables
+  dates: February 2020 - March 2020
+  # quote: >
+  #   Prof. Smruti R. Sarangi
+  description: |
+    - Implemented distributed hash tables pastry & chord which can be actively scaled to large number of devices.
+   	- Implementation can handle active addition and deletion of new nodes and can route packets to destination in logarithmic time.
+
+- layout: top-middle
   name: Flowchart Grounded Dialog Dataset Collection
   dates: September 2019 - December 2019
   # quote: >

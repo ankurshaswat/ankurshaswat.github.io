@@ -4,7 +4,7 @@ favicon: images/favicon.ico
 
 # Personal info
 name: Shashwat Shivam
-title: Final Year, Computer Science and Engineering, IIT Delhi
+title: ML Engineer, B.Tech CSE-2020, IIT Delhi 
 email: shivamshaswat@gmail.com
 website: https://ankurshaswat.github.io/
 
@@ -24,7 +24,7 @@ linkedin_username: ankurshaswat
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, i am Shashwat, a final year undergraduate student at Computer Science and Engineering department , IIT Delhi. I have experience in data science projects along with creating software and web apps. I have worked on a number of projects with various groups picking up teamwork and software skills along the way. I am a tech enthusiast who likes creating new things and experimenting with things. 
+  Hi, i am Shashwat, a Machine Learning Engineer 2020 undergraduate from Computer Science and Engineering department , IIT Delhi. I have experience in data science projects, ML Pipelines, DevOps and Automation along with creating software and web apps. I have worked on a number of projects with various groups picking up teamwork and software skills along the way. I am a tech enthusiast who likes creating new things and experimenting with things. 
 
   Download my CV by clicking <a target="_blank" href="./assets/ShashwatShivamCV.pdf">here</a>.
 
@@ -49,10 +49,10 @@ more_content: | # this will include new lines to allow paragraphs
     - Ranked in Top 1% in India in NSEP,NSEC and NSEA (National Standard Examinations).
     - Awarded Student of The Year on graduating Higher Secondary for excellent academic performance.
 
-  Courses Done: Computer Vision, Reinforcement Learning, Natural Language Processing, Artificial Intelligence, Analysis & Design of Algorithms, Computer Networks, Data Structures & Algorithms, Discrete Mathematical Structures, Probability & Stochastic Pro., Computer Architecture, Programming Languages, Design Practices.
+  Courses Done: Computer Vision, Reinforcement Learning, Advanced Distributed Systems, Natural Language Processing, Artificial Intelligence, Analysis & Design of Algorithms, Computer Networks, Data Structures & Algorithms, Discrete Mathematical Structures, Probability & Stochastic Pro., Computer Architecture, Programming Languages, Design Practices.
   
   Technical Skills:
-    - Languages: C, C++, Python, Java, JavaScript, NodeJS, VHDL, PHP, OCaml, Prolog.
+    - Languages: C, C++, Python, GoLang, Java, Scala, JavaScript, NodeJS, VHDL, PHP, OCaml, Prolog.
     - Environments: Git, Android Studio, LaTeX, Xilinx ISE Design Suite, Vivado.
     - Frameworks: PyTorch, TensorFlow, Django, Bootstrap, JQuery, MongoDB, MySQL.
 
@@ -63,8 +63,8 @@ more_content: | # this will include new lines to allow paragraphs
     - Member of Robotics Club IIT Delhi (October 2016 - March 2017)
   
   Positions of Responsibilities:
-    - Elected Manager at DevClub IIT Delhi (April 2019 - Present)
-    - Executive Member & Developer at DevClub IIT Delhi (April 2018 - Present)
+    - Elected Manager at DevClub IIT Delhi (April 2019 - May 2020)
+    - Executive Member & Developer at DevClub IIT Delhi (April 2018 - May 2020)
 
   Alongside my interests mentioned above some of my other interests and hobbies are:
    - Travelling

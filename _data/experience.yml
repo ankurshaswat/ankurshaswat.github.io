@@ -10,6 +10,16 @@
 
 - layout: left
   company: Samsung Electronics, South Korea
+  job_title: Machine Learning Engineer
+  dates: October 2020 - Present
+  description: |
+    - Added Business Intelligence features to data analysis dashboard for support to Sales and Management teams.
+    - Dockerized applications for better uptime and lower setup time.
+    - Setup and managed Kubernetes Cluster on AWS Cloud Platform. Shifted applications from standard deployment to cluster.
+    - Setup Kafka along with Avro Schema Registry for low latency low size messaging service.
+
+- layout: left
+  company: Samsung Electronics, South Korea
   job_title: Software Developer Intern
   dates: May 2019 - July 2019
   description: |
