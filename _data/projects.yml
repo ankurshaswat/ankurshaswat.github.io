@@ -30,7 +30,7 @@
   #   Prof. Smruti R. Sarangi
   description: |
     - Implemented distributed hash tables pastry & chord which can be actively scaled to large number of devices.
-   	- Implementation can handle active addition and deletion of new nodes and can route packets to destination in logarithmic time.
+    - Implementation can handle active addition and deletion of new nodes and can route packets to destination in logarithmic time.
 
 - layout: top-middle
   name: Flowchart Grounded Dialog Dataset Collection
