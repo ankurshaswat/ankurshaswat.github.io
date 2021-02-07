@@ -2,23 +2,47 @@
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
+# Content configuration version
+version: 2
+
 # Personal info
 name: Shashwat Shivam
-title: ML Engineer, B.Tech CSE-2020, IIT Delhi 
+title: Machine Learning Engineer
 email: shivamshaswat@gmail.com
 website: https://ankurshaswat.github.io/
+
+# Dark Mode (true/false/never)
+darkmode: false
 
 # Social links
 twitter_username: ankurshaswat
 github_username:  ankurshaswat
+# stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 facebook_username: ankurshaswat
 # flickr_username: jekyll
 instagram_username: ankurshaswat
 linkedin_username: ankurshaswat
+# xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-103615652-2"
+google_analytics: "UA-103615652-2"
 
 # About Section
 # about_title: About Me
@@ -28,51 +52,345 @@ about_content: | # this will include new lines to allow paragraphs
 
   Download my CV by clicking <a target="_blank" href="./assets/ShashwatShivamCV.pdf">here</a>.
 
-# Projects Section
-# projects_title: Projects
+content:
 
-# Experience Section
-# experience_title: Experience
 
-# Education Section
-# educaton_title: Education
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+    - layout: left
+      title: Samsung Electronics, South Korea
+      sub_title: Machine Learning Engineer
+      caption: October 2020 - Present
+      description: |
+        - Added Business Intelligence features to data analysis dashboard for support to Sales and Management teams.
+        - Dockerized applications for better uptime and lower setup time.
+        - Setup and managed Kubernetes Cluster on AWS Cloud Platform. Shifted applications from standard deployment to cluster.
+        - Setup Kafka along with Avro Schema Registry for low latency low size messaging service.
 
-# More Section
-# more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
-  Scholastic Achievements:
-    - Secured All India Rank 82 in Joint Entrance Exam Advanced - 2016 among 200 Thousand candidates.
-    - Won IITD Semester Merit Award in first 2 semesters (given to top 7% of all the students).
-    - Ranked in Top 0.01% among 2 million candidates appearing in Joint Entrance Examination(JEE Mains-2016).
-    - Qualified KVPY Exam in ‘Kishore Vaigyanik Protsahan Yojana’ by Indian Institute of Science given to top 1%.
-    - Became a National Talent Search Examination (NTSE) scholar for being in top 1000 at National level in 2014.
-    - Ranked in Top 1% in India in NSEP,NSEC and NSEA (National Standard Examinations).
-    - Awarded Student of The Year on graduating Higher Secondary for excellent academic performance.
+    - layout: left
+      title: Samsung Electronics, South Korea
+      sub_title: Software Developer Intern
+      caption: May 2019 - July 2019
+      description: |
+        - Worked on washing machine course prediction using Bigdata Framework Apache Spark.
+        - Built course recommendation system using XGBoost (Gradient Boosting Framework).
+        - Worked on data pre-processing and analysis with Scala and Tableau respectively.
 
-  Courses Done: Computer Vision, Reinforcement Learning, Advanced Distributed Systems, Natural Language Processing, Artificial Intelligence, Analysis & Design of Algorithms, Computer Networks, Data Structures & Algorithms, Discrete Mathematical Structures, Probability & Stochastic Pro., Computer Architecture, Programming Languages, Design Practices.
-  
-  Technical Skills:
-    - Languages: C, C++, Python, GoLang, Java, Scala, JavaScript, NodeJS, VHDL, PHP, OCaml, Prolog.
-    - Environments: Git, Android Studio, LaTeX, Xilinx ISE Design Suite, Vivado.
-    - Frameworks: PyTorch, TensorFlow, Django, Bootstrap, JQuery, MongoDB, MySQL.
+    - layout: left
+      title: KidCloset
+      sub_title: Software Developer Intern
+      caption: May 2018 - July 2018
+      description: |
+        - Developed and implemented a Recommender System, addressing cold start problem, to suggest top k items from fashion items annotated with rich attributes.
+        - Created stylist console using React which enables fashion creativity to be used along with system generated recommendations to give an ideal mix.
+        - Used fashion domain expertise including colour theory to create rules for pairing garments together.
+        - Data handled using APIs for firebase and Google Spreadsheet with add item functionality.
 
-  Extra Curricular Activites:
-    - Received Honorable Mention at OpenEd AI Hackathon 2017 for creating NER using CRF for Hindi language.
-    - Ranked in Top 3 in Microsoft Code.fun.do online hackathon 2018 for building an attention tracking application.
-    - Microsoft Student Partner (August 2017 - October 2019)
-    - Member of Robotics Club IIT Delhi (October 2016 - March 2017)
-  
-  Positions of Responsibilities:
-    - Elected Manager at DevClub IIT Delhi (April 2019 - May 2020)
-    - Executive Member & Developer at DevClub IIT Delhi (April 2018 - May 2020)
+    # - layout: left
+    #   title: Primebook
+    #   sub_title: Android App Development Intern
+    #   caption: December 2017
+    #   description: |
+    #     - Worked on custom launcher for desktop like usability on android environment.
+    #     - Added options to launcher menu for using system APIs to perform standard functions including settings, power on/off.
+    #     - Optimized launcher menu for faster launch and search indexing and added functionality to resize menu.
 
-  Alongside my interests mentioned above some of my other interests and hobbies are:
-   - Travelling
-   - Reading
-   - Watching Movies & TV series.
+    - layout: left
+      title: Anhad Music
+      sub_title: Web Development Intern
+      caption: May 2017 - July 2017
+      description: | 
+        - Developed a Django based MVC back end for new website along with models and relations for events and members.
+        - Migrated database from old NoSQL based system to SQL system using python script.
+        - Provided API endpoints for Android application using Rest API Framework.
+        - Setup Social login system along with direct login from social networks like Facebook, Google etc.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+
+    - layout: left
+      title: College
+      caption: July 2016 - May 2020
+      description: |
+        B.Tech Computer Science & Engineering
+      
+        Indian Institute of Technology, Delhi
+        
+        CGPA = 9.074
+
+    - layout: left
+      title: High School
+      caption: May 2014 - May 2016
+      description: |
+        PCM with CS, CBSE
+
+        St. Joseph's Co-ed School, Bhopal
+        
+        Percentage = 96.2%
+
+    - layout: left
+      title: School
+      caption: Graduated May 2014
+      description: |
+        CBSE
+
+        St. Joseph's Co-ed School, Bhopal
+        
+        GPA = 10/10
+
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+    - layout: top-middle
+      title: Bitcoin Implementation
+      caption: April 2020 - May 2020
+      # quote: >
+      #   Prof. Smruti R. Sarangi
+      description: |
+        - Implemented prototype Bitcoin with mining, transaction and smart contract support.   
+
+    - layout: top-middle
+      title: GHS Algorithm
+      caption: March 2020 - April 2020
+      # quote: >
+      #   Prof. Smruti R. Sarangi
+      description: |
+        - Implemented GHS Algorithm used to compute minimum spanning tree in a distributed environment  
+
+    - layout: top-middle
+      title: Chord & Pastry Distributed Hash Tables
+      caption: February 2020 - March 2020
+      # quote: >
+      #   Prof. Smruti R. Sarangi
+      description: |
+        - Implemented distributed hash tables pastry & chord which can be actively scaled to large number of devices.
+        - Implementation can handle active addition and deletion of new nodes and can route packets to destination in logarithmic time.
+
+    - layout: top-middle
+      title: Flowchart Grounded Dialog Dataset Collection
+      caption: September 2019 - December 2019
+      # quote: >
+      #   Prof. Mausam
+      description: |
+        - Created framework to collect dataset based on flowcharts of tech support executives to enable research on novel NLP task.
+        - Observed real dialogs and added nuances in framework to create more natural looking conversations. 
+
+    - layout: top-middle
+      title: AlphaGoZero
+      caption: October 2019 - November 2019
+      # quote: >
+      #   Prof. Parag Singla
+      description: |
+        - Implemented and trained AlphaGoZero RL based player using the architecture description from the nature paper for a game on a smaller Go board. 
+
+    - layout: top-middle
+      title: Augmented Reality Application
+      caption: October 2019
+      # quote: >
+      #   Prof. Chetan Arora
+      description: |
+        - Aruco marker detection implemented using computer vision techniques.
+        - Rendered 3D models onto Aruco markers in realtime feed from webcam.
+        - Developed various animations and an AR ping pong game using markers and video from webcam. 
+
+    - layout: top-middle
+      title: Standard RL Tabular Methods
+      caption: September 2019 - October 2019
+      # quote: >
+      #   Prof. Parag Singla
+      description: |
+        - Implemented various RL tabular learning methods including MC methods, TD methods & Q-learning methods.
+        - Compared performance of various methods in an environment playing the game Achieve-31 (rules similar to blackjack).
+
+    - layout: top-middle
+      title: One Shot Relational Learning for Knowledge Graphs
+      caption: March 2019 - May 2019
+      # quote: >
+      #   Prof. Mausam
+      description: |
+        - Improved performance of existing one-shot learning model to predict relations.
+        - Analysed data to gain insight into model performance.
+        - Added similarity and attention layer to existing model to increase accuracy.
+
+    - layout: top-middle
+      title: PCA using CUDA
+      caption: April 2019
+      # quote: >
+      #   Prof. Subodh V. Sharma
+      description: |
+        - Implemented Principal Component Analysis from scratch on CUDA for high performance. Done as a part of Introduction to Parallel and Distributed Programming (COL380) course.
+
+    - layout: top-middle
+      title: Virtualization and IPC on xv6
+      caption: January 2019 – April 2019
+      # quote: >
+      #   Prof. S. R. Sarangi
+      description: |
+        - Extended the toy operating system xv6 to support virtualization with multiple containers. Implemented custom unicast and multicast calls using interrupt routines. Done as a part of Operating Systems (COL331) course under the guidance of Prof. S. R. Sarangi
+
+    - layout: top-middle
+      title: Yinsh AI player
+      caption: September 2018 - November 2018
+      # quote: >
+      #   Prof. Mausam
+      description: |
+        - Created an AI player in C++ in a team of 2 using the minimax search algorithm to compete at a Yinsh tournament.
+        - Used alpha beta pruning and search heuristics to increase the search space depth of AI player.
+
+    - layout: top-middle
+      title: Abstract Machines
+      caption: April 2018 – May 2018
+      # quote: >
+      #   Prof. Sanjiva Prasad
+      description: |
+        - Implemented Krivine and SECD abstract machines in OCaml based on big step semantics. Done as a part of Programming Languages (COL226) course.
+
+    - layout: top-middle
+      title: Prolog Interpreter
+      caption: April 2018 – May 2018
+      # quote: >
+      #   Prof. Sanjiva Prasad
+      description: |
+        - Implemented a simple prolog interpreter in Ocaml using ocamllex for lexing and ocamlyacc for parsing.
+        - Built a sigma algebra engine in Ocaml supporting unification and substitution of terms.
+
+    - layout: top-middle
+      title: ARM CPU based Processor
+      caption: February 2018 – April 2018
+      # quote: >
+      #   Prof. Anshul Kumar
+      description: |
+        - Implemented and integrated datapath blocks - ALU, Shifter, Register file, Processor-Memory path.
+        - Incorporated controller blocks and AHB-lite bus, which connected processor (master) to memory (slave).
+        - Tested a program in which binary input (from switches) was converted to BCD format using the processor and displayed on Seven Segment Display.
+
+    - layout: top-middle
+      title: Starling flock simulation
+      caption: April 2018
+      # quote: >
+      #   Prof. Subhashis Banerjee
+      description: |
+        - Developed program in C++ using OpenGL to simulate flocking of starling bird flight using relevant mathematical properties.
+
+    - layout: top-middle
+      title: CAD Software
+      caption: January 2018 – March 2018
+      # quote: >
+      #   Prof. Subhashis Banerjee
+      description: |
+        - In C++\|Qt for finding projections of 3D objects (including hidden lines); constructing 3D objects from 2D projections. This engineering drawing tool can be used to build and visualise wireframe models, rotating them using sliders and obtaining orthographic projections. Done as a part of Design Practices for Computer Science (COP290) course.
+
+    # - layout: top-middle
+    #   title: Infrared Image Skin Detection
+    #   caption: December 2017
+    #   # quote: >
+    #   #   Prof. Prathosh A.P.
+    #   description: |
+    #     - Collected and annotated dataset using Infrared Camera containing classes as skin / non-skin images.
+    #     - Predicted presence of skin in images using modified pre-trained VGG net further trained on new collected dataset.
+
+    - layout: top-middle
+      title: Universal Asynchronous Receiver Transmitter (UART)
+      caption: October 2017 – November 2017
+      # quote: >
+      #   Prof. Anshul Kumar
+      description: |
+        - Built a UART with the help of FPGA board and VHDL language capable of transmitting data to the computer.
+        - Implemented the design to transmit ASCII characters and pre-saved messages at 9600 baud rate via USB cable.
+
+    - layout: top-middle
+      title: Elevator Control System
+      caption: September 2017 – October 2017
+      # quote: >
+      #   Prof. Anshul Kumar
+      description: |
+        - Created a lift control system using VHDL with the ability to receive requests from inside or outside the lift.
+        - Added functionality to resolve requests to provide the fastest possible lift routes to requested floors.
+        - Achieved the proper working of the system by creating a FSM chart describing various states of lift.
+
+    - layout: top-middle
+      title: Hindi Named Entity Recognition
+      caption: July 2017 – August 2017
+      # quote: >
+      #   OpenEd AI Hackathon
+      description: |
+        - Implemented named entity recognition system to detect the various entities in a sentence in the Hindi language.
+        - Used vocabulary library to train a model using the pre-built python CRF suite library.
+        - Built as part of openEd AI hackathon 2017 and received honourable mention. [(Result Link)](https://medium.com/opened-ai/global-hackweek-winners-2017-a9e5da513270).
+
+    - layout: top-middle
+      title: Digital Canteen Application
+      caption: May 2017 – July 2017
+      # quote: >
+      #   Prof. M.Balakrishnan
+      description: |
+        - Created an android application to note the transactions happening within the lunch club and to display all user details.
+        - Setup MySQL database on a VM to store data of menu, users and balance from android application.
+        - Setup API endpoints using PHP on a VM to upload data and keep the app in sync with the on-line database.
+        - Created a website to visualise data of transactions and show instant accounting of specified time.
+
+    - layout: top-middle
+      title: Peer to Peer File Send Application
+      caption: May 2017 – July 2017
+      # quote: >
+      #   Dev Club IIT Delhi
+      description: |
+        - Worked with a team to develop a web application capable of sending files from browser to browser.
+        - Used Socket.Io as a signaling server to exchange meta-data between users and to select partner to exchange data.
+        - Used WebRTC technology to initiate peer to peer connection between browsers.
+
+    # - layout: top-middle
+    #   title: Maze Solving Bot
+    #   caption: December 2016 - January 2017
+    #   # quote: >
+    #   #   Robotics Club IIT Delhi
+    #   description: |
+    #     - Made a fully autonomous maze solving robot using the Tremaux algorithm to find exit in a looped maze as part of competition in TechFest , IIT Bombay.
+    #     - Implemented code to turn at 90,135 and 180 degrees using 7 I.R. Sensors to detect path on the ground.
+    #     - Implemented the hardware and software design using an Arduino board.
+
+    # Attention app ?
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Scholastic Achievements:
+        - Secured All India Rank 82 in Joint Entrance Exam Advanced - 2016 among 200 Thousand candidates.
+        - Won IITD Semester Merit Award in first 2 semesters (given to top 7% of all the students).
+        - Ranked in Top 0.01% among 2 million candidates appearing in Joint Entrance Examination(JEE Mains-2016).
+        - Qualified KVPY Exam in ‘Kishore Vaigyanik Protsahan Yojana’ by Indian Institute of Science given to top 1%.
+        - Became a National Talent Search Examination (NTSE) scholar for being in top 1000 at National level in 2014.
+        - Ranked in Top 1% in India in NSEP,NSEC and NSEA (National Standard Examinations).
+        - Awarded Student of The Year on graduating Higher Secondary for excellent academic performance.
+
+      Courses Done: Computer Vision, Reinforcement Learning, Advanced Distributed Systems, Natural Language Processing, Artificial Intelligence, Analysis & Design of Algorithms, Computer Networks, Data Structures & Algorithms, Discrete Mathematical Structures, Probability & Stochastic Pro., Computer Architecture, Programming Languages, Design Practices.
+      
+      Technical Skills:
+        - Languages: C, C++, Python, GoLang, Java, Scala, JavaScript, NodeJS, VHDL, PHP, OCaml, Prolog.
+        - Environments: Git, Android Studio, LaTeX, Xilinx ISE Design Suite, Vivado.
+        - Frameworks: PyTorch, TensorFlow, Django, Bootstrap, JQuery, MongoDB, MySQL.
+
+      Extra Curricular Activites:
+        - Received Honorable Mention at OpenEd AI Hackathon 2017 for creating NER using CRF for Hindi language.
+        - Ranked in Top 3 in Microsoft Code.fun.do online hackathon 2018 for building an attention tracking application.
+        - Microsoft Student Partner (August 2017 - October 2019)
+        - Member of Robotics Club IIT Delhi (October 2016 - March 2017)
+      
+      Positions of Responsibilities:
+        - Elected Manager at DevClub IIT Delhi (April 2019 - May 2020)
+        - Executive Member & Developer at DevClub IIT Delhi (April 2018 - May 2020)
+
+      Alongside my interests mentioned above some of my other interests and hobbies are:
+      - Travelling
+      - Reading
+      - Watching Movies & TV series.
 
 # Footer
-footer_show_references: false
+footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
