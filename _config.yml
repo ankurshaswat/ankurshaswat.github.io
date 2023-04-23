@@ -48,7 +48,11 @@ gtag: "G-VLQ7CE25FF"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, i am Shashwat, a Machine Learning Engineer 2020 undergraduate from Computer Science and Engineering department , IIT Delhi. I have experience in data science projects, ML Pipelines, DevOps and Automation along with creating software and web apps. I have worked on a number of projects with various groups picking up teamwork and software skills along the way. I am a tech enthusiast who likes creating new things and experimenting with things. 
+  Hi, I'm Shashwat, a Software Development Engineer at Graviton Research Capital LLP, an HFT located in Gurgaon. I completed my undergraduate studies in Computer Science and Engineering from IIT Delhi in 2020.
+  
+  With my current role, I have gained expertise in software development of low-latency network-level code utilizing C++, along with experience in bash and Python scripting. Additionally, I possess knowledge of Linux systems and network level architecture. Along with this, I have prior experience in data science projects, ML pipelines, DevOps, and automation, as well as software, web and application development.
+  
+  My experience working on diverse projects with various groups has honed my teamwork and software development skills. As a tech enthusiast, I enjoy exploring new technologies and experimenting with them to create innovative solutions.
 
   Download my CV by clicking <a target="_blank" href="./assets/ShashwatShivamCV.pdf">here</a>.
 
@@ -59,9 +63,18 @@ content:
     layout: list # Type of content section (list/text)
     content:
     - layout: left
-      title: Samsung Electronics, South Korea
+      title: Graviton Research Capital LLP (HFT), Gurgaon, India
+      sub_title: Software Development Engineer
+      caption: September 2021 - Present
+      description: |
+        - Optimized low-latency code and implemented new features in network-level code using C++.
+        - Worked on generation of daily latency reports that was utilized for tuning of critical parameters.  
+        - Utilized Python and Bash scripting to support various tasks.
+
+    - layout: left
+      title: Samsung Electronics, Suwon, South Korea
       sub_title: Machine Learning Engineer
-      caption: October 2020 - Present
+      caption: October 2020 - September 2021
       description: |
         - Added Business Intelligence features to data analysis dashboard for support to Sales and Management teams.
         - Dockerized applications for better uptime and lower setup time.
@@ -69,7 +82,7 @@ content:
         - Setup Kafka along with Avro Schema Registry for low latency low size messaging service.
 
     - layout: left
-      title: Samsung Electronics, South Korea
+      title: Samsung Electronics, Suwon, South Korea
       sub_title: Software Developer Intern
       caption: May 2019 - July 2019
       description: |
@@ -78,7 +91,7 @@ content:
         - Worked on data pre-processing and analysis with Scala and Tableau respectively.
 
     - layout: left
-      title: KidCloset
+      title: KidCloset, Delhi, India
       sub_title: Software Developer Intern
       caption: May 2018 - July 2018
       description: |
@@ -86,7 +99,6 @@ content:
         - Created stylist console using React which enables fashion creativity to be used along with system generated recommendations to give an ideal mix.
         - Used fashion domain expertise including colour theory to create rules for pairing garments together.
         - Data handled using APIs for firebase and Google Spreadsheet with add item functionality.
-
     # - layout: left
     #   title: Primebook
     #   sub_title: Android App Development Intern
@@ -97,7 +109,7 @@ content:
     #     - Optimized launcher menu for faster launch and search indexing and added functionality to resize menu.
 
     - layout: left
-      title: Anhad Music
+      title: Anhad Music, Delhi, India
       sub_title: Web Development Intern
       caption: May 2017 - July 2017
       description: | 
