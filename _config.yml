@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Shashwat Shivam
-title: Machine Learning Engineer
+title: Software Development Engineer
 email: shivamshaswat@gmail.com
 website: https://ankurshaswat.github.io/
 
@@ -48,7 +48,7 @@ gtag: "G-VLQ7CE25FF"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Shashwat, a Software Development Engineer at Graviton Research Capital LLP, an HFT located in Gurgaon. I completed my undergraduate studies in Computer Science and Engineering from IIT Delhi in 2020.
+  Hi, I'm Shashwat, a Software Development Engineer at Graviton Research Capital LLP, an HFT located in Gurugram. I completed my undergraduate studies in Computer Science and Engineering from IIT Delhi in 2020.
   
   With my current role, I have gained expertise in software development of low-latency network-level code utilizing C++, along with experience in bash and Python scripting. Additionally, I possess knowledge of Linux systems and network level architecture. Along with this, I have prior experience in data science projects, ML pipelines, DevOps, and automation, as well as software, web and application development.
   
@@ -63,7 +63,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
     - layout: left
-      title: Graviton Research Capital LLP (HFT), Gurgaon, India
+      title: Graviton Research Capital LLP (HFT), Gurugram, India
       sub_title: Software Development Engineer
       caption: September 2021 - Present
       description: |
